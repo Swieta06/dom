@@ -7,7 +7,8 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(135deg, rgb(238, 7, 180), rgb(215, 108, 236));
+  /* background: linear-gradient(135deg, rgb(238, 7, 180), rgb(215, 108, 236)); */
+  background-image: url(image/bg1.png);
 }
 .container {
   border: 2px solid white;
@@ -40,7 +41,7 @@ body {
 }
 #newtask input:focus {
   outline: none;
-  border-color: rgb(238, 7, 180);
+  border-color: rgb(236, 65, 116);
 }
 #newtask button {
   position: relative;
@@ -50,7 +51,7 @@ body {
   border-radius: 5px;
   font-weight: 500;
   font-size: 16px;
-  background-color: rgb(238, 7, 180);
+  background-color: rgb(236, 65, 116);
   border: none;
   color: aliceblue;
   cursor: pointer;
@@ -80,7 +81,7 @@ body {
   font-size: 400;
 }
 .task button {
-  background-color: rgb(238, 7, 180);
+  background-color: rgb(236, 65, 116);
   color: #ffff;
   height: 100%;
   width: 40px;
